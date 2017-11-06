@@ -1,0 +1,30 @@
+{
+ "timing_type": "clock_gettime",
+ "functions": {
+  "memcpy": {
+   "bench-variant": "random",
+   "ifuncs": ["memcpy"],
+   "results": [
+    {
+     "max-size": 4096,
+     "timings": [325295]
+    },
+    {
+     "max-size": 8192,
+     "timings": [323626]
+    },
+    {
+     "max-size": 16384,
+     "timings": [339481]
+    },
+    {
+     "max-size": 32768,
+     "timings": [350626]
+    },
+    {
+     "max-size": 65536,
+     "timings": [356817]
+    }]
+  }
+ }
+}

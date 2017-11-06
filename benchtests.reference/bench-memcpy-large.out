@@ -1,0 +1,250 @@
+{
+ "timing_type": "clock_gettime",
+ "functions": {
+  "memcpy": {
+   "bench-variant": "large",
+   "ifuncs": ["memcpy"],
+   "results": [
+    {
+     "length": 65543,
+     "align1": 0,
+     "align2": 0,
+     "timings": [15820.3]
+    },
+    {
+     "length": 65551,
+     "align1": 0,
+     "align2": 3,
+     "timings": [19404.3]
+    },
+    {
+     "length": 65567,
+     "align1": 3,
+     "align2": 0,
+     "timings": [20305.9]
+    },
+    {
+     "length": 65599,
+     "align1": 3,
+     "align2": 5,
+     "timings": [19505.2]
+    },
+    {
+     "length": 131079,
+     "align1": 0,
+     "align2": 0,
+     "timings": [31168.6]
+    },
+    {
+     "length": 131087,
+     "align1": 0,
+     "align2": 3,
+     "timings": [38938.8]
+    },
+    {
+     "length": 131103,
+     "align1": 3,
+     "align2": 0,
+     "timings": [40755.2]
+    },
+    {
+     "length": 131135,
+     "align1": 3,
+     "align2": 5,
+     "timings": [38903]
+    },
+    {
+     "length": 262151,
+     "align1": 0,
+     "align2": 0,
+     "timings": [78457]
+    },
+    {
+     "length": 262159,
+     "align1": 0,
+     "align2": 3,
+     "timings": [93030.6]
+    },
+    {
+     "length": 262175,
+     "align1": 3,
+     "align2": 0,
+     "timings": [86972.6]
+    },
+    {
+     "length": 262207,
+     "align1": 3,
+     "align2": 5,
+     "timings": [85423.1]
+    },
+    {
+     "length": 524295,
+     "align1": 0,
+     "align2": 0,
+     "timings": [291927]
+    },
+    {
+     "length": 524303,
+     "align1": 0,
+     "align2": 3,
+     "timings": [285745]
+    },
+    {
+     "length": 524319,
+     "align1": 3,
+     "align2": 0,
+     "timings": [280632]
+    },
+    {
+     "length": 524351,
+     "align1": 3,
+     "align2": 5,
+     "timings": [283678]
+    },
+    {
+     "length": 1048583,
+     "align1": 0,
+     "align2": 0,
+     "timings": [767445]
+    },
+    {
+     "length": 1048591,
+     "align1": 0,
+     "align2": 3,
+     "timings": [762158]
+    },
+    {
+     "length": 1048607,
+     "align1": 3,
+     "align2": 0,
+     "timings": [771768]
+    },
+    {
+     "length": 1048639,
+     "align1": 3,
+     "align2": 5,
+     "timings": [759310]
+    },
+    {
+     "length": 2097159,
+     "align1": 0,
+     "align2": 0,
+     "timings": [1.60212e+06]
+    },
+    {
+     "length": 2097167,
+     "align1": 0,
+     "align2": 3,
+     "timings": [1.6089e+06]
+    },
+    {
+     "length": 2097183,
+     "align1": 3,
+     "align2": 0,
+     "timings": [1.61308e+06]
+    },
+    {
+     "length": 2097215,
+     "align1": 3,
+     "align2": 5,
+     "timings": [1.6006e+06]
+    },
+    {
+     "length": 4194311,
+     "align1": 0,
+     "align2": 0,
+     "timings": [3.22489e+06]
+    },
+    {
+     "length": 4194319,
+     "align1": 0,
+     "align2": 3,
+     "timings": [3.21647e+06]
+    },
+    {
+     "length": 4194335,
+     "align1": 3,
+     "align2": 0,
+     "timings": [3.2266e+06]
+    },
+    {
+     "length": 4194367,
+     "align1": 3,
+     "align2": 5,
+     "timings": [3.20538e+06]
+    },
+    {
+     "length": 8388615,
+     "align1": 0,
+     "align2": 0,
+     "timings": [6.41114e+06]
+    },
+    {
+     "length": 8388623,
+     "align1": 0,
+     "align2": 3,
+     "timings": [6.40021e+06]
+    },
+    {
+     "length": 8388639,
+     "align1": 3,
+     "align2": 0,
+     "timings": [6.45527e+06]
+    },
+    {
+     "length": 8388671,
+     "align1": 3,
+     "align2": 5,
+     "timings": [6.40595e+06]
+    },
+    {
+     "length": 16777223,
+     "align1": 0,
+     "align2": 0,
+     "timings": [1.28879e+07]
+    },
+    {
+     "length": 16777231,
+     "align1": 0,
+     "align2": 3,
+     "timings": [1.28406e+07]
+    },
+    {
+     "length": 16777247,
+     "align1": 3,
+     "align2": 0,
+     "timings": [1.29337e+07]
+    },
+    {
+     "length": 16777279,
+     "align1": 3,
+     "align2": 5,
+     "timings": [1.2861e+07]
+    },
+    {
+     "length": 33554439,
+     "align1": 0,
+     "align2": 0,
+     "timings": [2.56463e+07]
+    },
+    {
+     "length": 33554447,
+     "align1": 0,
+     "align2": 3,
+     "timings": [2.56172e+07]
+    },
+    {
+     "length": 33554463,
+     "align1": 3,
+     "align2": 0,
+     "timings": [2.57053e+07]
+    },
+    {
+     "length": 33554495,
+     "align1": 3,
+     "align2": 5,
+     "timings": [2.55759e+07]
+    }]
+  }
+ }
+}

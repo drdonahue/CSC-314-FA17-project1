@@ -1,0 +1,163 @@
+                       	wmemcmp	simple_wmemcmp
+Length    1, alignment  4/ 4:	117.188	46.375
+Length    1, alignment  4/ 4:	48.0156	38.25
+Length    1, alignment  4/ 4:	48.8281	38.25
+Length    2, alignment  8/ 8:	53.7031	45.5781
+Length    2, alignment  8/ 8:	54.5312	39.875
+Length    2, alignment  8/ 8:	56.1562	43.1406
+Length    3, alignment 12/12:	54.5312	57.7812
+Length    3, alignment 12/12:	56.9688	46.3906
+Length    3, alignment 12/12:	59.4062	48.0156
+Length    4, alignment 16/16:	60.2188	62.6719
+Length    4, alignment 16/16:	51.2656	52.0781
+Length    4, alignment 16/16:	50.4688	50.4531
+Length    5, alignment 20/20:	65.1094	66.7344
+Length    5, alignment 20/20:	59.4062	64.2969
+Length    5, alignment 20/20:	62.6562	63.4688
+Length    6, alignment 24/24:	67.5469	70.7969
+Length    6, alignment 24/24:	67.5469	70.7969
+Length    6, alignment 24/24:	69.1719	69.9844
+Length    7, alignment 28/28:	67.5312	74.8594
+Length    7, alignment 28/28:	70.8125	76.5
+Length    7, alignment 28/28:	72.4375	72.4219
+Length    8, alignment 32/32:	70.7969	78.9375
+Length    8, alignment 32/32:	63.4844	77.3125
+Length    8, alignment 32/32:	64.2969	76.5
+Length    9, alignment 36/36:	75.6719	83.8125
+Length    9, alignment 36/36:	71.6094	83.0156
+Length    9, alignment 36/36:	74.8594	79.75
+Length   10, alignment 40/40:	76.5	87.0781
+Length   10, alignment 40/40:	78.125	87.8906
+Length   10, alignment 40/40:	79.75	87.0625
+Length   11, alignment 44/44:	78.125	91.1406
+Length   11, alignment 44/44:	80.5625	91.1562
+Length   11, alignment 44/44:	80.5625	88.7031
+Length   12, alignment 48/48:	85.4531	96.0312
+Length   12, alignment 48/48:	81.375	95.2188
+Length   12, alignment 48/48:	79.75	93.5938
+Length   13, alignment 52/52:	100.094	100.094
+Length   13, alignment 52/52:	96.8438	98.4688
+Length   13, alignment 52/52:	98.4688	98.4688
+Length   14, alignment 56/56:	103.344	103.359
+Length   14, alignment 56/56:	104.156	104.172
+Length   14, alignment 56/56:	104.984	101.719
+Length   15, alignment 60/60:	102.531	107.422
+Length   15, alignment 60/60:	106.609	107.422
+Length   15, alignment 60/60:	109.047	106.609
+Length    1, alignment  0/ 0:	52.0938	39.875
+Length    1, alignment  0/ 0:	46.375	39.0625
+Length    1, alignment  0/ 0:	48.8281	38.25
+Length    2, alignment  0/ 0:	55.3438	44.7656
+Length    2, alignment  0/ 0:	55.3438	40.6875
+Length    2, alignment  0/ 0:	56.1562	42.3281
+Length    3, alignment  0/ 0:	53.7031	58.5938
+Length    3, alignment  0/ 0:	56.1562	46.3906
+Length    3, alignment  0/ 0:	59.4219	46.3906
+Length    4, alignment  0/ 0:	58.5938	55.3281
+Length    4, alignment  0/ 0:	51.2656	50.4531
+Length    4, alignment  0/ 0:	50.4531	52.9062
+Length    5, alignment  0/ 0:	65.9219	67.5469
+Length    5, alignment  0/ 0:	61.0469	63.4844
+Length    5, alignment  0/ 0:	62.6562	56.9688
+Length    6, alignment  0/ 0:	68.3594	70.7969
+Length    6, alignment  0/ 0:	68.3594	70.7969
+Length    6, alignment  0/ 0:	69.1719	68.3594
+Length    7, alignment  0/ 0:	68.3594	74.875
+Length    7, alignment  0/ 0:	69.9844	75.6875
+Length    7, alignment  0/ 0:	72.4375	73.25
+Length    8, alignment  0/ 0:	70.7969	78.9375
+Length    8, alignment  0/ 0:	64.2969	78.125
+Length    8, alignment  0/ 0:	63.4844	78.125
+Length    9, alignment  0/ 0:	74.875	83
+Length    9, alignment  0/ 0:	71.625	81.375
+Length    9, alignment  0/ 0:	74.0469	81.3906
+Length   10, alignment  0/ 0:	78.125	87.0781
+Length   10, alignment  0/ 0:	76.5	87.0781
+Length   10, alignment  0/ 0:	79.75	84.6406
+Length   11, alignment  0/ 0:	78.125	91.1406
+Length   11, alignment  0/ 0:	80.5781	91.1406
+Length   11, alignment  0/ 0:	81.3906	89.5156
+Length   12, alignment  0/ 0:	85.4531	96.0312
+Length   12, alignment  0/ 0:	81.3906	95.2188
+Length   12, alignment  0/ 0:	80.5625	94.4062
+Length   13, alignment  0/ 0:	91.1406	100.109
+Length   13, alignment  0/ 0:	89.5156	98.4688
+Length   13, alignment  0/ 0:	88.7031	96.8438
+Length   14, alignment  0/ 0:	92.7812	104.172
+Length   14, alignment  0/ 0:	92.7656	103.359
+Length   14, alignment  0/ 0:	94.4062	102.531
+Length   15, alignment  0/ 0:	94.3906	107.422
+Length   15, alignment  0/ 0:	94.3906	107.422
+Length   15, alignment  0/ 0:	98.4688	105.797
+Length    4, alignment  0/ 0:	58.5938	54.5312
+Length    4, alignment  0/ 0:	51.2812	48.8281
+Length    4, alignment  0/ 0:	50.4688	51.2656
+Length   32, alignment  0/ 0:	176.594	179.859
+Length   32, alignment 28/ 8:	177.406	178.219
+Length   32, alignment  0/ 0:	172.531	177.406
+Length   32, alignment  0/ 0:	173.344	176.594
+Length    8, alignment  0/ 0:	69.9844	78.125
+Length    8, alignment  0/ 0:	64.2969	78.125
+Length    8, alignment  0/ 0:	63.4688	78.125
+Length   64, alignment  0/ 0:	303.547	323.078
+Length   64, alignment 24/16:	303.547	311.688
+Length   64, alignment  0/ 0:	299.484	311.688
+Length   64, alignment  0/ 0:	299.469	318.188
+Length   16, alignment  0/ 0:	113.938	111.5
+Length   16, alignment  0/ 0:	105.797	111.484
+Length   16, alignment  0/ 0:	104.172	110.688
+Length  128, alignment  0/ 0:	556.641	579.422
+Length  128, alignment 20/24:	556.641	578.609
+Length  128, alignment  0/ 0:	553.375	577.797
+Length  128, alignment  0/ 0:	552.562	577.797
+Length   32, alignment  0/ 0:	177.422	179.031
+Length   32, alignment  0/ 0:	173.328	178.219
+Length   32, alignment  0/ 0:	171.719	176.594
+Length  256, alignment  0/ 0:	1063.64	1111.64
+Length  256, alignment 16/32:	1712.23	1114.09
+Length  256, alignment  0/ 0:	1059.56	1111.66
+Length  256, alignment  0/ 0:	1059.56	1110.03
+Length   64, alignment  0/ 0:	304.359	312.5
+Length   64, alignment  0/ 0:	297.859	312.5
+Length   64, alignment  0/ 0:	298.656	308.438
+Length  512, alignment  0/ 0:	2077.62	2179.36
+Length  512, alignment 12/40:	2077.62	2179.36
+Length  512, alignment  0/ 0:	2072.75	2177.73
+Length  512, alignment  0/ 0:	2071.94	2177.73
+Length  128, alignment  0/ 0:	558.266	578.609
+Length  128, alignment  0/ 0:	551.75	578.609
+Length  128, alignment  0/ 0:	552.578	576.984
+Length 1024, alignment  0/ 0:	4106.44	4314.78
+Length 1024, alignment  8/48:	4105.62	4315.59
+Length 1024, alignment  0/ 0:	4100.75	4313.16
+Length 1024, alignment  0/ 0:	4099.92	4311.53
+Length  256, alignment  0/ 0:	1063.64	1111.66
+Length  256, alignment  0/ 0:	1059.58	1111.66
+Length  256, alignment  0/ 0:	1059.58	1110.83
+Length  512, alignment  0/ 0:	2076.83	2179.36
+Length  512, alignment  0/ 0:	2073.56	2178.55
+Length  512, alignment  0/ 0:	2072.75	2229
+Length 1024, alignment  0/ 0:	4104.83	4313.97
+Length 1024, alignment  0/ 0:	4100.75	4311.52
+Length 1024, alignment  0/ 0:	4101.56	4445.8
+Length   16, alignment  4/ 8:	112.297	111.5
+Length   16, alignment  4/ 8:	104.984	111.484
+Length   16, alignment  4/ 8:	104.984	109.875
+Length   32, alignment  8/16:	176.594	178.234
+Length   32, alignment  8/16:	172.516	177.406
+Length   32, alignment  8/16:	171.703	178.219
+Length   64, alignment 12/24:	303.547	310.875
+Length   64, alignment 12/24:	300.297	310.875
+Length   64, alignment 12/24:	297.844	310.062
+Length  128, alignment 16/32:	555.828	579.422
+Length  128, alignment 16/32:	552.578	576.984
+Length  128, alignment 16/32:	552.578	579.438
+Length  256, alignment 20/40:	1063.64	1115.72
+Length  256, alignment 20/40:	1059.58	1111.66
+Length  256, alignment 20/40:	1058.75	1110.03
+Length  512, alignment 24/48:	2076.81	2180.17
+Length  512, alignment 24/48:	2072.75	2390.95
+Length  512, alignment 24/48:	2075.2	2176.92
+Length 1024, alignment 28/56:	4106.44	4366.05
+Length 1024, alignment 28/56:	4100.75	4313.95
+Length 1024, alignment 28/56:	4099.94	4324.53

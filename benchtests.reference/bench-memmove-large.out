@@ -1,0 +1,66 @@
+                       	memmove
+Length 4103, alignment  0/64:	1406.25
+Length 4111, alignment  0/ 3:	1500.62
+Length 4127, alignment  3/ 0:	1484.38
+Length 4159, alignment  3/ 7:	1233.69
+Length 4223, alignment  9/ 5:	1240.25
+Length 8199, alignment  0/64:	2164.69
+Length 8207, alignment  0/ 3:	2766.94
+Length 8223, alignment  3/ 0:	2753.88
+Length 8255, alignment  3/ 7:	2252.56
+Length 8319, alignment  9/ 5:	2265.62
+Length 16391, alignment  0/64:	4124.38
+Length 16399, alignment  0/ 3:	5442.69
+Length 16415, alignment  3/ 0:	5426.38
+Length 16447, alignment  3/ 7:	4358.75
+Length 16511, alignment  9/ 5:	4427.06
+Length 32775, alignment  0/64:	8326.81
+Length 32783, alignment  0/ 3:	10774.8
+Length 32799, alignment  3/ 0:	10738.9
+Length 32831, alignment  3/ 7:	8841.19
+Length 32895, alignment  9/ 5:	8779.31
+Length 65543, alignment  0/64:	16881.5
+Length 65551, alignment  0/ 3:	21829.4
+Length 65567, alignment  3/ 0:	21845.7
+Length 65599, alignment  3/ 7:	17858.1
+Length 65663, alignment  9/ 5:	17727.8
+Length 131079, alignment  0/64:	33326.8
+Length 131087, alignment  0/ 3:	43886.7
+Length 131103, alignment  3/ 0:	43860.7
+Length 131135, alignment  3/ 7:	35169.2
+Length 131199, alignment  9/ 5:	35693.4
+Length 262151, alignment  0/64:	67018.2
+Length 262159, alignment  0/ 3:	88831.4
+Length 262175, alignment  3/ 0:	88691.4
+Length 262207, alignment  3/ 7:	70725.9
+Length 262271, alignment  9/ 5:	72145.2
+Length 524295, alignment  0/64:	189788
+Length 524303, alignment  0/ 3:	213630
+Length 524319, alignment  3/ 0:	222887
+Length 524351, alignment  3/ 7:	195618
+Length 524415, alignment  9/ 5:	232943
+Length 1048583, alignment  0/64:	934469
+Length 1048591, alignment  0/ 3:	952783
+Length 1048607, alignment  3/ 0:	974619
+Length 1048639, alignment  3/ 7:	954736
+Length 1048703, alignment  9/ 5:	966771
+Length 2097159, alignment  0/64:	2.12705e+06
+Length 2097167, alignment  0/ 3:	2.12562e+06
+Length 2097183, alignment  3/ 0:	2.15033e+06
+Length 2097215, alignment  3/ 7:	2.18654e+06
+Length 2097279, alignment  9/ 5:	2.14545e+06
+Length 4194311, alignment  0/64:	4.24632e+06
+Length 4194319, alignment  0/ 3:	4.2716e+06
+Length 4194335, alignment  3/ 0:	4.26739e+06
+Length 4194367, alignment  3/ 7:	4.30132e+06
+Length 4194431, alignment  9/ 5:	4.29154e+06
+Length 8388615, alignment  0/64:	8.50105e+06
+Length 8388623, alignment  0/ 3:	8.55733e+06
+Length 8388639, alignment  3/ 0:	8.57197e+06
+Length 8388671, alignment  3/ 7:	8.6118e+06
+Length 8388735, alignment  9/ 5:	8.57799e+06
+Length 16777223, alignment  0/64:	1.70542e+07
+Length 16777231, alignment  0/ 3:	1.7188e+07
+Length 16777247, alignment  3/ 0:	1.71881e+07
+Length 16777279, alignment  3/ 7:	1.71813e+07
+Length 16777343, alignment  9/ 5:	1.71553e+07

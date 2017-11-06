@@ -1,0 +1,440 @@
+{"timing_type": "clock_gettime",
+ "functions": {
+  "acos": {
+   "": {
+    "duration": 1.00042e+10,
+    "iterations": 1.89e+07,
+    "max": 1058.28,
+    "min": 112.968,
+    "mean": 529.321
+   },
+   "slow": {
+    "duration": 1.00744e+10,
+    "iterations": 24000,
+    "max": 419897,
+    "min": 419641,
+    "mean": 419766
+   }
+  },
+  "acosh": {
+   "": {
+    "duration": 9.94242e+09,
+    "iterations": 4.23e+07,
+    "max": 307.812,
+    "min": 160.052,
+    "mean": 235.045
+   }
+  },
+  "asin": {
+   "": {
+    "duration": 1.0077e+10,
+    "iterations": 2e+07,
+    "max": 1059.06,
+    "min": 107.968,
+    "mean": 503.849
+   },
+   "slow": {
+    "duration": 1.04784e+10,
+    "iterations": 25000,
+    "max": 419878,
+    "min": 417502,
+    "mean": 419135
+   }
+  },
+  "asinh": {
+   "": {
+    "duration": 9.95759e+09,
+    "iterations": 4.74e+07,
+    "max": 311.666,
+    "min": 167.083,
+    "mean": 210.076
+   }
+  },
+  "atan": {
+   "": {
+    "duration": 1.00952e+10,
+    "iterations": 2.8e+07,
+    "max": 810.782,
+    "min": 118.802,
+    "mean": 360.541
+   },
+   "144bits": {
+    "duration": 1.02556e+10,
+    "iterations": 111000,
+    "max": 92486.7,
+    "min": 92333.8,
+    "mean": 92392.4
+   }
+  },
+  "atanh": {
+   "": {
+    "duration": 9.92902e+09,
+    "iterations": 5.72e+07,
+    "max": 221.719,
+    "min": 154.166,
+    "mean": 173.584
+   }
+  },
+  "cos": {
+   "": {
+    "duration": 1.00851e+10,
+    "iterations": 1.84e+07,
+    "max": 1693.23,
+    "min": 118.802,
+    "mean": 548.101
+   },
+   "768bits": {
+    "duration": 4.51117e+10,
+    "iterations": 105000,
+    "max": 433499,
+    "min": 424555,
+    "mean": 429636
+   }
+  },
+  "cosh": {
+   "": {
+    "duration": 9.91615e+09,
+    "iterations": 6.72e+07,
+    "max": 244.479,
+    "min": 42.916,
+    "mean": 147.562
+   }
+  },
+  "exp": {
+   "": {
+    "duration": 1.06279e+10,
+    "iterations": 2.056e+06,
+    "max": 16515.8,
+    "min": 56.25,
+    "mean": 5169.22
+   },
+   "768bits": {
+    "duration": 1.04642e+10,
+    "iterations": 40000,
+    "max": 281243,
+    "min": 256623,
+    "mean": 261605
+   },
+   "144bits": {
+    "duration": 1.01628e+10,
+    "iterations": 671000,
+    "max": 16540.2,
+    "min": 13672.8,
+    "mean": 15145.8
+   }
+  },
+  "exp2": {
+   "": {
+    "duration": 9.80766e+09,
+    "iterations": 1.2597e+08,
+    "max": 172.969,
+    "min": 42.083,
+    "mean": 77.8571
+   }
+  },
+  "log": {
+   "": {
+    "duration": 1.00146e+10,
+    "iterations": 3.4748e+07,
+    "max": 1069.84,
+    "min": 177.916,
+    "mean": 288.206
+   }
+  },
+  "log2": {
+   "": {
+    "duration": 9.91768e+09,
+    "iterations": 6.66e+07,
+    "max": 275.989,
+    "min": 147.135,
+    "mean": 148.914
+   }
+  },
+  "modf": {
+   "": {
+    "duration": 9.34846e+09,
+    "iterations": 3.64994e+08,
+    "max": 110.99,
+    "min": 25.416,
+    "mean": 25.6126
+   }
+  },
+  "pow": {
+   "": {
+    "duration": 9.96669e+09,
+    "iterations": 2.5886e+07,
+    "max": 704.687,
+    "min": 193.02,
+    "mean": 385.022
+   },
+   "240bits": {
+    "duration": 1.84216e+10,
+    "iterations": 200000,
+    "max": 107853,
+    "min": 75397.9,
+    "mean": 92108.1
+   },
+   "768bits": {
+    "duration": 1.44268e+11,
+    "iterations": 101000,
+    "max": 1.4853e+06,
+    "min": 690877,
+    "mean": 1.42839e+06
+   }
+  },
+  "rint": {
+   "": {
+    "duration": 9.31837e+09,
+    "iterations": 4.11252e+08,
+    "max": 78.958,
+    "min": 17.916,
+    "mean": 22.6585
+   }
+  },
+  "sin": {
+   "": {
+    "duration": 1.08481e+10,
+    "iterations": 1.96e+07,
+    "max": 1670.89,
+    "min": 96.302,
+    "mean": 553.477
+   },
+   "768bits": {
+    "duration": 4.58462e+10,
+    "iterations": 107000,
+    "max": 432292,
+    "min": 419871,
+    "mean": 428469
+   }
+  },
+  "sincos": {
+   "": {
+    "duration": 1.30979e+10,
+    "iterations": 2.0448e+07,
+    "max": 1802.24,
+    "min": 130.625,
+    "mean": 640.548
+   },
+   "768bits": {
+    "duration": 1.01389e+10,
+    "iterations": 24000,
+    "max": 423681,
+    "min": 419147,
+    "mean": 422452
+   }
+  },
+  "sinh": {
+   "": {
+    "duration": 9.93623e+09,
+    "iterations": 5.79e+07,
+    "max": 281.042,
+    "min": 163.802,
+    "mean": 171.61
+   }
+  },
+  "sqrt": {
+   "": {
+    "duration": 9.53215e+09,
+    "iterations": 2.95708e+08,
+    "max": 63.02,
+    "min": 32.083,
+    "mean": 32.235
+   }
+  },
+  "tan": {
+   "": {
+    "duration": 1.04116e+10,
+    "iterations": 1.9458e+07,
+    "max": 1209.22,
+    "min": 110.469,
+    "mean": 535.081
+   },
+   "240bits": {
+    "duration": 1.02472e+10,
+    "iterations": 2.6e+06,
+    "max": 4320.31,
+    "min": 3100.78,
+    "mean": 3941.23
+   },
+   "768bits": {
+    "duration": 1.1048e+10,
+    "iterations": 24000,
+    "max": 464985,
+    "min": 452342,
+    "mean": 460335
+   }
+  },
+  "tanh": {
+   "": {
+    "duration": 9.9421e+09,
+    "iterations": 5.54e+07,
+    "max": 233.437,
+    "min": 151.667,
+    "mean": 179.46
+   }
+  },
+  "fmin": {
+   "": {
+    "duration": 9.13946e+09,
+    "iterations": 5.351e+08,
+    "max": 47.864,
+    "min": 16.25,
+    "mean": 17.0799
+   },
+   "sNaN": {
+    "duration": 9.54147e+09,
+    "iterations": 2.52308e+08,
+    "max": 158.177,
+    "min": 30.677,
+    "mean": 37.8167
+   },
+   "qNaN": {
+    "duration": 9.5913e+09,
+    "iterations": 2.30688e+08,
+    "max": 114.218,
+    "min": 40.625,
+    "mean": 41.5769
+   }
+  },
+  "fmax": {
+   "": {
+    "duration": 9.14647e+09,
+    "iterations": 5.4394e+08,
+    "max": 76.771,
+    "min": 16.25,
+    "mean": 16.8152
+   },
+   "sNaN": {
+    "duration": 9.5434e+09,
+    "iterations": 2.67836e+08,
+    "max": 60.99,
+    "min": 30.208,
+    "mean": 35.6315
+   },
+   "qNaN": {
+    "duration": 9.5862e+09,
+    "iterations": 2.39952e+08,
+    "max": 69.063,
+    "min": 39.739,
+    "mean": 39.9505
+   }
+  },
+  "fminf": {
+   "": {
+    "duration": 9.12986e+09,
+    "iterations": 5.4225e+08,
+    "max": 47.917,
+    "min": 16.25,
+    "mean": 16.837
+   },
+   "qNaN": {
+    "duration": 9.53573e+09,
+    "iterations": 2.6118e+08,
+    "max": 88.334,
+    "min": 36.406,
+    "mean": 36.5102
+   },
+   "sNaN": {
+    "duration": 9.50127e+09,
+    "iterations": 2.86356e+08,
+    "max": 81.406,
+    "min": 28.906,
+    "mean": 33.1799
+   }
+  },
+  "fmaxf": {
+   "": {
+    "duration": 9.1502e+09,
+    "iterations": 5.3681e+08,
+    "max": 51.458,
+    "min": 16.25,
+    "mean": 17.0455
+   },
+   "sNaN": {
+    "duration": 9.53575e+09,
+    "iterations": 2.69792e+08,
+    "max": 62.968,
+    "min": 30.572,
+    "mean": 35.3448
+   },
+   "qNaN": {
+    "duration": 9.57008e+09,
+    "iterations": 2.50072e+08,
+    "max": 61.667,
+    "min": 38.072,
+    "mean": 38.2693
+   }
+  },
+  "powf": {
+   "": {
+    "duration": 9.96858e+09,
+    "iterations": 4.1895e+07,
+    "max": 331.198,
+    "min": 57.135,
+    "mean": 237.942
+   },
+   "workload-spec2006.wrf": {
+    "duration": 1.02433e+10,
+    "iterations": 3.9348e+07,
+    "throughput": 260.327
+   }
+  },
+  "pthread_once": {
+   "": {
+    "duration": 8.90448e+09,
+    "iterations": 5.42765e+08,
+    "max": 41.302,
+    "min": 16.25,
+    "mean": 16.4058
+   }
+  },
+  "thread_create": {
+   "stack=1024,guard=1": {
+    "duration": 1.73997e+10,
+    "iterations": 7000,
+    "max": 2.56457e+06,
+    "min": 2.46449e+06,
+    "mean": 2.48568e+06
+   },
+   "stack=1024,guard=2": {
+    "duration": 1.72607e+10,
+    "iterations": 7000,
+    "max": 2.47185e+06,
+    "min": 2.46272e+06,
+    "mean": 2.46582e+06
+   },
+   "stack=2048,guard=2": {
+    "duration": 1.63948e+10,
+    "iterations": 6000,
+    "max": 2.73365e+06,
+    "min": 2.73101e+06,
+    "mean": 2.73246e+06
+   },
+   "stack=2048,guard=1": {
+    "duration": 1.63973e+10,
+    "iterations": 6000,
+    "max": 2.7352e+06,
+    "min": 2.73031e+06,
+    "mean": 2.73288e+06
+   }
+  },
+  "ffs": {
+   "": {
+    "duration": 9.19017e+09,
+    "iterations": 5.328e+08,
+    "max": 72.76,
+    "min": 17.083,
+    "mean": 17.2488
+   }
+  },
+  "ffsll": {
+   "": {
+    "duration": 9.28999e+09,
+    "iterations": 4.707e+08,
+    "max": 43.907,
+    "min": 19.583,
+    "mean": 19.7365
+   }
+  }
+ }
+}

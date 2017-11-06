@@ -1,0 +1,17 @@
+{
+ "timing_type": "clock_gettime",
+ "functions": {
+  "malloc": {
+   "": {
+    "duration": 3.79775e+12,
+    "iterations": 6.70904e+08,
+    "time_per_iteration": 5660.65,
+    "max_rss": 3988,
+    "threads": 16,
+    "min_size": 4,
+    "max_size": 32768,
+    "random_seed": 88
+   }
+  }
+ }
+}

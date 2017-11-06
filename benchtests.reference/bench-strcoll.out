@@ -1,0 +1,122 @@
+  "strcoll": {
+   "filelist#C": {
+    "duration": 5.48538e+08,
+    "iterations": 16,
+    "mean": 3.42836e+07
+   },
+   "filelist#en_US.UTF-8": {
+    "duration": 2.80455e+09,
+    "iterations": 16,
+    "mean": 1.75284e+08
+   },
+   "lorem_ipsum#vi_VN.UTF-8": {
+    "duration": 5.42856e+07,
+    "iterations": 16,
+    "mean": 3.39285e+06
+   },
+   "lorem_ipsum#ar_SA.UTF-8": {
+    "duration": 7.16976e+07,
+    "iterations": 16,
+    "mean": 4.4811e+06
+   },
+   "lorem_ipsum#en_US.UTF-8": {
+    "duration": 5.3088e+07,
+    "iterations": 16,
+    "mean": 3.318e+06
+   },
+   "lorem_ipsum#zh_CN.UTF-8": {
+    "duration": 2.45707e+07,
+    "iterations": 16,
+    "mean": 1.53567e+06
+   },
+   "lorem_ipsum#cs_CZ.UTF-8": {
+    "duration": 6.42021e+07,
+    "iterations": 16,
+    "mean": 4.01263e+06
+   },
+   "lorem_ipsum#en_GB.UTF-8": {
+    "duration": 6.24724e+07,
+    "iterations": 16,
+    "mean": 3.90452e+06
+   },
+   "lorem_ipsum#da_DK.UTF-8": {
+    "duration": 5.62092e+07,
+    "iterations": 16,
+    "mean": 3.51307e+06
+   },
+   "lorem_ipsum#pl_PL.UTF-8": {
+    "duration": 5.36315e+07,
+    "iterations": 16,
+    "mean": 3.35197e+06
+   },
+   "lorem_ipsum#fr_FR.UTF-8": {
+    "duration": 6.77961e+07,
+    "iterations": 16,
+    "mean": 4.23726e+06
+   },
+   "lorem_ipsum#pt_PT.UTF-8": {
+    "duration": 6.80326e+07,
+    "iterations": 16,
+    "mean": 4.25203e+06
+   },
+   "lorem_ipsum#el_GR.UTF-8": {
+    "duration": 1.06937e+08,
+    "iterations": 16,
+    "mean": 6.68355e+06
+   },
+   "lorem_ipsum#ru_RU.UTF-8": {
+    "duration": 8.0232e+07,
+    "iterations": 16,
+    "mean": 5.0145e+06
+   },
+   "lorem_ipsum#he_IL.UTF-8": {
+    "duration": 7.35283e+07,
+    "iterations": 16,
+    "mean": 4.59552e+06
+   },
+   "lorem_ipsum#es_ES.UTF-8": {
+    "duration": 6.36738e+07,
+    "iterations": 16,
+    "mean": 3.97961e+06
+   },
+   "lorem_ipsum#hi_IN.UTF-8": {
+    "duration": 6.42406e+09,
+    "iterations": 16,
+    "mean": 4.01504e+08
+   },
+   "lorem_ipsum#sv_SE.UTF-8": {
+    "duration": 5.49243e+07,
+    "iterations": 16,
+    "mean": 3.43277e+06
+   },
+   "lorem_ipsum#hu_HU.UTF-8": {
+    "duration": 8.67172e+07,
+    "iterations": 16,
+    "mean": 5.41983e+06
+   },
+   "lorem_ipsum#tr_TR.UTF-8": {
+    "duration": 5.83402e+07,
+    "iterations": 16,
+    "mean": 3.64626e+06
+   },
+   "lorem_ipsum#is_IS.UTF-8": {
+    "duration": 5.27773e+07,
+    "iterations": 16,
+    "mean": 3.29858e+06
+   },
+   "lorem_ipsum#it_IT.UTF-8": {
+    "duration": 6.65324e+07,
+    "iterations": 16,
+    "mean": 4.15828e+06
+   },
+   "lorem_ipsum#sr_RS.UTF-8": {
+    "duration": 6.00685e+07,
+    "iterations": 16,
+    "mean": 3.75428e+06
+   },
+   "lorem_ipsum#ja_JP.UTF-8": {
+    "duration": 2.71361e+07,
+    "iterations": 16,
+    "mean": 1.69601e+06
+   }
+  }

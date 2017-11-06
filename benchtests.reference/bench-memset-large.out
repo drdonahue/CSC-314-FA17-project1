@@ -1,0 +1,21 @@
+                        	memset
+Length 131072, alignment  0, c 65:	28499.4
+Length 131072, alignment  3, c 65:	27646.5
+Length 262144, alignment  0, c 65:	57164.7
+Length 262144, alignment  3, c 65:	55716.2
+Length 524288, alignment  0, c 65:	173594
+Length 524288, alignment  3, c 65:	180134
+Length 1048576, alignment  0, c 65:	472074
+Length 1048576, alignment  3, c 65:	466442
+Length 2097152, alignment  0, c 65:	1.06331e+06
+Length 2097152, alignment  3, c 65:	1.05661e+06
+Length 4194304, alignment  0, c 65:	2.24129e+06
+Length 4194304, alignment  3, c 65:	2.23821e+06
+Length 8388608, alignment  0, c 65:	4.61166e+06
+Length 8388608, alignment  3, c 65:	4.60513e+06
+Length 16777216, alignment  0, c 65:	9.36008e+06
+Length 16777216, alignment  3, c 65:	9.34391e+06
+Length 33554432, alignment  0, c 65:	1.88224e+07
+Length 33554432, alignment  3, c 65:	1.88102e+07
+Length 67108864, alignment  0, c 65:	3.78827e+07
+Length 67108864, alignment  3, c 65:	3.78384e+07
