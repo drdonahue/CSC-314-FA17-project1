@@ -9,23 +9,33 @@
 #else
 #define PLD(code...)
 # endif
-ENTRY(memcpy)
-    mov r4, #0
-loop:	
-    cmp r4, r2
-    bge end
-    
-    ldrb r3, [r1]!
+ENTRY(strncat)    
+  
+    .text
+	mov r4, #0
+findNull:
+	ldrb r3, [r0]!
+	cmp r3, #0
+	bne findNull
+
+append:	
+    add r4, r4, #1
+	
+	ldrb r3, [r1]!
+	cmp r3, #0
+	beq end
+
 	strb r3, [r0]!
 	
-	add r4, r4, #1
+	cmp r4, r2
+	beq end
 	
-	b loop
+	b append
 	
 end:	
-    mov r2,#0
-	strb r2, [r0]
+    mov r3, #0
+	strb r3, [r0]!
 	mov pc, lr
 
-END(memcpy)
-libc_hidden_builtin_def (memcpy)
+END(strncat)
+libc_hidden_builtin_def (strncat)

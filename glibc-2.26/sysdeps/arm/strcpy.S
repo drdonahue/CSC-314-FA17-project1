@@ -10,15 +10,18 @@
 #define PLD(code...)
 # endif
 ENTRY(strcpy)
-
-loop:	ldrb r2, [r1]!,   
+    .text
+    
+loop:	
+    ldrb r2, [r1]!,   
 	cmp r2, #0
 	b end
 
 	strb r2, [r0]!
 	b loop
 	
-end:	mov r2,#0
+end:	
+    mov r2,#0
 	strb r2, [r0]
 	mov pc, lr
 
