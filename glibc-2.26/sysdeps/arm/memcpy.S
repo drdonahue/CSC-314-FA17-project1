@@ -10,21 +10,21 @@
 #define PLD(code...)
 # endif
 ENTRY(memcpy)
+    .text
+    
     mov r4, #0
 loop:	
     cmp r4, r2
     bge end
     
-    ldrb r3, [r1]!
-	strb r3, [r0]!
+    ldrb r3, [r1], #1
+	strb r3, [r0], #1
 	
 	add r4, r4, #1
 	
 	b loop
 	
 end:	
-    mov r2,#0
-	strb r2, [r0]
 	mov pc, lr
 
 END(memcpy)

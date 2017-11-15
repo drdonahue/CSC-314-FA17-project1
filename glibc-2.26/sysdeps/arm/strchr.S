@@ -13,7 +13,7 @@ ENTRY(strchr)
      
      .text
 loop:
-    ldrb r2, [r0]!
+    ldrb r2, [r0], #1
     cmp r2, r1
     beq end
     

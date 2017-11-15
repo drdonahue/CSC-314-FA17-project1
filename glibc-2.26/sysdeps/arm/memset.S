@@ -23,8 +23,9 @@ loop:
     cmp r3, #0
     beq end
     
-    strb r1, [r0]!
+    strb r1, [r0], #1
         
+    add r4, r4, #1
     b loop
     
 end: 

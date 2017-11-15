@@ -12,20 +12,22 @@
 ENTRY(strncat)    
   
     .text
-	mov r4, #0
+	mov r4, #1
+	
 findNull:
-	ldrb r3, [r0]!
+	ldrb r3, [r0], #1
 	cmp r3, #0
 	bne findNull
-
+    sub r0, r0, #1
+    
 append:	
     add r4, r4, #1
 	
-	ldrb r3, [r1]!
+	ldrb r3, [r1], #1
+	strb r3, [r0], #1
+	
 	cmp r3, #0
 	beq end
-
-	strb r3, [r0]!
 	
 	cmp r4, r2
 	beq end
@@ -33,8 +35,6 @@ append:
 	b append
 	
 end:	
-    mov r3, #0
-	strb r3, [r0]!
 	mov pc, lr
 
 END(strncat)

@@ -13,16 +13,14 @@ ENTRY(strcpy)
     .text
     
 loop:	
-    ldrb r2, [r1]!,   
+    ldrb r2, [r1], #1  
 	cmp r2, #0
-	b end
+	beq end
 
-	strb r2, [r0]!
+	strb r2, [r0], #1
 	b loop
 	
 end:	
-    mov r2,#0
-	strb r2, [r0]
 	mov pc, lr
 
 END(strcpy)

@@ -15,7 +15,7 @@ ENTRY(strlen)
     mov r3, #0
     
 loop:
-    ldbr r1, [r0]!
+    ldbr r1, [r0], #1
     cmp r1, #0
     beq end
         
