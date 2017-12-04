@@ -1,6 +1,6 @@
 /* Copyright (C) 1998-2017 Free Software Foundation, Inc.
    This file is part of the GNU C Library.
-   Contributed by Philip Blundell <philb@gnu.org>
+   Contributed by Shashwati Shradha & David Donahue
 
    The GNU C Library is free software; you can redistribute it and/or
    modify it under the terms of the GNU Lesser General Public
@@ -21,35 +21,30 @@ Authors:	 Shashwati Shradha, David Donahue
 
 Date:		 4th Dec 2017
 	
-Function:  	 strcpy
+Function:  	 memset
 
-Prototype:       char* strcpy( char* destination, const char* source) ;
+Prototype:       void* memset( void* ptr, int value, size_t num) ;
 
-parameter:	destination - pointer to the destination array where
-			      the content is to be copied
-		source      - C string to be copied
+parameter:	ptr - Pointer to the block of memory to fill.
+		value - value to be set
+		num - Number of bytes to be set to the value
 
 Description:
-	Copy strings
-	Copies the C string pointer by source into the array pointed
-	by destination, including terminating null character ( and
-	stopping at that point).
+	Fill block of memory
+	Set the first num bytes of the block of memory pointed by ptr
+	to the specified value.
 
 	To implement this function, we first check if the pointers are
 	the same or null pointers. If they are, we immediately go to
-	end the program by returning the right values, otherwise it
-	one character at a time from source to destination. To
-	avoid overflows, the size of the array pointed by
-	destination shall be long enough to contain the same C string
-	as souce( including the terminating null character).
-	
+	end the program by returning the right values, first num
+	characters are set to the passed character value.	
 
 Return:
-	destination - the pointer to the array where the source is
-		      copied.
+	ptr - the pointer with first num characters set to value
 
 Speed Analysis:
-	The average speed up in the implement is :
+	The average speed up of the implement compared to the original
+	function in the C standard Library is:  -0.74%
 	
 ***********************************************************************/
 	#define NO_THUMB
@@ -64,36 +59,36 @@ Speed Analysis:
 #define PLD(code...)
 # endif
 	
-ENTRY(strcpy)
+ENTRY(strcspn) 
 	.text
-	.global strcpy
+	.globl	strcspn
+strcspn:	
+	cmp	r0, #0
+	cmpne	r1, #0
+	moveq	pc,lr
 	
-strcpy:
-	stmfd sp!, {lr}
+	stmfd	sp!, {r4,lr}
 
-	cmp r0, #0		@checks if string 1 is a nullptr
-	beq end
+	mov	r4, #0
 
-	cmp r1, #0		@checks if string 2 is a nullptr
-	beq end
+loop1:	mov	r12, r1
+	ldrb	r2, [r0]!	@ load a character from r0
+loop2:
+	ldrb	r3, [r12]!	@ compare to each character in r1
+	cmp	r2, r3
+	beq	end		@ if a match is found, end the function
 
-	mov r3, #0		@counter for offset
+	cmp	r3, #0		@ else check the character string for null
+	bne	loop2		@ if null, move on to the next character of r0
 
-loop:
-	ldrb r2, [r1, r3]	@load 1 character from source
+	add	r4, r4, #1	@ increment the count
+	cmp	r2, #0		@ compare str1 to null, though the match should catch it
+	bne	loop1		@ if not null, move on to the next character
 
-	strb r2, [r0, r3]	@stores the character into destination
+end:	mov	r0, r4
 
-	cmp r2, #0		@checks if it is a null character
-	beq end			@ends if it is a null character
+	ldmfd 	sp!, {r4,pc}
 
-	add r3, r3, #1		@increases the offset
 	
-	b loop			
-	
-end:
-	ldmfd sp!, {lr}		@returns the source
-	mov pc, lr
-
-END(strcpy)
-libc_hidden_builtin_def (strcpy)
+END(strcspn)
+libc_hidden_builtin_def (strcspn)

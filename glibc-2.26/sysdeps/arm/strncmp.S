@@ -21,9 +21,9 @@ Authors:	 Shashwati Shradha, David Donahue
 
 Date:		 4th Dec 2017
 	
-Function:  	 strcmp
+Function:  	 strncmp
 
-Prototype:       int strcmp( const char* str1, const char* str2) ;
+Prototype:       int strncmp( const char* str1, const char* str2, size_t num) ;
 
 parameter:	str1 - pointer to the first C string
 		str2 - pointer to the second C string
@@ -38,7 +38,8 @@ Description:
 	it starts comparing the first character of each string.
 	If they are equal to each other, it continues with the
 	following pairs until the characters differ or until a
-	terminating null character is reached.
+	terminating null character is reached or until we have
+	compared num characters.
 
 Return:
 	<0 the first character that does not match has a lower value
@@ -48,8 +49,8 @@ Return:
 	   in str1 than in str2
 
 Speed Analysis:
-	The average speed up for this implementation of the function
-	as compared to the one in the C Standard Library is:   -71.81%
+	The average speed up of this implementation as compared to the
+	the same function in the C Standard Library is:   -14.42%
 	
 ***********************************************************************/
 	#define NO_THUMB
@@ -64,11 +65,12 @@ Speed Analysis:
 #define PLD(code...)
 # endif
 	
-ENTRY(strcmp)
+ENTRY(strncmp)
 	.text
-	.global strcmp
+	.global strncmp
 	
-strcmp:	stmfd sp!, {r4, r5, lr}
+strncmp:
+	stmfd sp!, {r4- r6, lr}
 	
 	cmp r0, r1          @checks if the strings are same
 	moveq r4, #0
@@ -82,29 +84,33 @@ strcmp:	stmfd sp!, {r4, r5, lr}
 	moveq r4, #1
 	beq end
 	
-	mov r5, #0
+	mov r5, #0	    @counter for the length
+	mov r6, r2	    @ n
 	
-loop:
-    ldrb r2, [r0, r5]        @loads 1 character from the string1
-    ldrb r3, [r1, r5]        @loads 1 character form the string2
+loop:		
+	cmp r5, r6	        @compare the length with
+	beq end
+	
+	ldrb r2, [r0, r5]        @loads 1 character from the string1
+	ldrb r3, [r1, r5]        @loads 1 character form the string2
     
-    subs r4, r2, r3          @checks if characters are equal
-    bne end
+	subs r4, r2, r3          @checks if characters are equal
+	bne end
     
-    cmp r2, #0		     @checks if it reached the end of string1
-    beq end			     
+	cmp r2, #0		 @checks if it reached the end of string1
+	beq end			     
     
-    cmp r3, #0               @checks if it reached the end of string2
-    beq end
+	cmp r3, #0               @checks if it reached the end of string2
+	beq end
+	
+	add r5, r5, #1	        @increases the counter by 1
     
-    add r5, r5, #1
-    
-    b loop
+	b loop
     
 end:
 	mov r0, r4		     @returns the value(+/0/-)
-	ldmfd sp!, {r4,r5, lr}
+	ldmfd sp!, {r4-r6, lr}
 	mov pc, lr
 
-END(strcmp)
-libc_hidden_builtin_def (strcmp)
+END(strncmp)
+libc_hidden_builtin_def (strncmp)
